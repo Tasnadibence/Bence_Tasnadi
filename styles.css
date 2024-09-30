@@ -1,14 +1,15 @@
 /* Alapstílusok */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+    background-image: url('images/hatter.JPEG');
+    background-size: cover; /* A kép teljesen kitölti az oldalt */
+    background-position: center; /* A kép középre igazítva jelenik meg */
+    background-repeat: no-repeat; /* A kép nem ismétlődik */
 }
+
 
 header {
     background-color: #641919;
-    color: white;
+    color: rgb(126, 42, 42);
     padding: 1rem;
     text-align: center;
 }
@@ -24,7 +25,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
