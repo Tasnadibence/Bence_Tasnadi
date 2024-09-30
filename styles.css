@@ -4,12 +4,15 @@ body {
     background-size: cover; /* A kép teljesen kitölti az oldalt */
     background-position: center; /* A kép középre igazítva jelenik meg */
     background-repeat: no-repeat; /* A kép nem ismétlődik */
+    color: #ffffff; /*  szín */
 }
 
 
+
+
 header {
-    background-color: #641919;
-    color: rgb(126, 42, 42);
+    background-color: #d400ff;
+    color: rgb(255, 255, 255);
     padding: 1rem;
     text-align: center;
 }
