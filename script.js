@@ -7,9 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const user = data.results[0];
             randomUserContainer.innerHTML = `
                 <img src="${user.picture.large}" alt="Random User">
-                <h3>${user.name.first} ${user.name.last}</h3>
-                <p>Email: ${user.email}</p>
-                <p>Telefonszám: ${user.phone}</p>
+                
             `;
         })
         .catch(error => {

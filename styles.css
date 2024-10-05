@@ -5,16 +5,28 @@ body {
     background-position: center; /* A kép középre igazítva jelenik meg */
     background-repeat: no-repeat; /* A kép nem ismétlődik */
     color: #ffffff; /*  szín */
+    background-attachment: fixed;
 }
 
 
 
 
 header {
-    background-color: #d400ff;
-    color: rgb(255, 255, 255);
-    padding: 1rem;
-    text-align: center;
+    background-image: url(images/header-hatter.webp); /* Cseréld ki a képed elérési útjára */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 300px; /* Beállított magasság a headerhez */
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            @media only screen and (max-width: 600px) {
+                header {
+                    height: 200px; /* Kisebb magasság mobil eszközökhöz */
+                }
+            }       
 }
 
 nav ul {
