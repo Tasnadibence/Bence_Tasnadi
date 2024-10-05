@@ -1,6 +1,6 @@
 /* Alapstílusok */
 body {
-    background-image: url('images/hatter.JPEG');
+    background-image: url('images/hatter2.jpg');
     background-size: cover; /* A kép teljesen kitölti az oldalt */
     background-position: center; /* A kép középre igazítva jelenik meg */
     background-repeat: no-repeat; /* A kép nem ismétlődik */
@@ -16,7 +16,7 @@ header {
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            height: 300px; /* Beállított magasság a headerhez */
+            height: 150px; /* Beállított magasság a headerhez */
             color: white;
             display: flex;
             align-items: center;
@@ -24,7 +24,7 @@ header {
 
             @media only screen and (max-width: 600px) {
                 header {
-                    height: 200px; /* Kisebb magasság mobil eszközökhöz */
+                    height: 100px; /* Kisebb magasság mobil eszközökhöz */
                 }
             }       
 }
