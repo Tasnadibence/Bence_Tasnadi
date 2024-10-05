@@ -29,6 +29,45 @@ header {
             }       
 }
 
+.image-container {
+    display: flex; /* A képeket egymás mellé helyezi */
+    justify-content: space-around; /* Egyenletesen elosztja a képeket */
+    text-align: center; /* Középre igazítja a szövegeket */
+    margin-top: 20px;
+}
+
+.image-container div {
+    flex: 1; /* Minden kép azonos szélességű lesz */
+    padding: 10px;
+}
+
+img {
+    width: 100%; /* A kép kitölti a szülő div szélességét */
+    max-width: 200px; /* Maximalizálja a képek szélességét */
+    height: auto; /* Megőrzi a kép arányait */
+}
+
+p {
+    margin-top: 10px; /* Kis távolság a kép és a szöveg között */
+    font-size: 16px;
+}
+@media only screen and (max-width: 600px) {
+    .image-container, .image-grid {
+        flex-direction: column; /* A Flexbox esetén függőlegesen helyezi el a képeket */
+        grid-template-columns: 1fr; /* A Grid esetén egyetlen oszlopra vált */
+    }
+
+    img {
+        max-width: 100%; /* A képek kitöltik a rendelkezésre álló helyet mobilon */
+    }
+}
+
+
+
+
+
+
+
 nav ul {
     list-style-type: none;
     padding: 0;
