@@ -43,7 +43,7 @@ header {
 
 img {
     width: 100%; /* A kép kitölti a szülő div szélességét */
-    max-width: 30px; /* Maximalizálja a képek szélességét */
+    max-width: 100px; /* Maximalizálja a képek szélességét */
     height: auto; /* Megőrzi a kép arányait */
 }
 
