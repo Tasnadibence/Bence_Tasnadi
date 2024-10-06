@@ -43,7 +43,7 @@ header {
 
 img {
     width: 100%; /* A kép kitölti a szülő div szélességét */
-    max-width: 30px; /* Maximalizálja a képek szélességét */
+    max-width: 300; /* Maximalizálja a képek szélességét */
     height: auto; /* Megőrzi a kép arányait */
 }
 
@@ -51,7 +51,7 @@ p {
     margin-top: 10px; /* Kis távolság a kép és a szöveg között */
     font-size: 16px;
 }
-@media only screen and (max-width: 200px) {
+@media only screen and (max-width: 60px) {
     .image-container, .image-grid {
         flex-direction: column; /* A Flexbox esetén függőlegesen helyezi el a képeket */
         grid-template-columns: 1fr; /* A Grid esetén egyetlen oszlopra vált */
