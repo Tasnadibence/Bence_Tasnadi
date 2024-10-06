@@ -43,7 +43,7 @@ header {
 
 img {
     width: 100%; /* A kép kitölti a szülő div szélességét */
-    max-width: 300; /* Maximalizálja a képek szélességét */
+    max-width: 150px; /* Maximalizálja a képek szélességét */
     height: auto; /* Megőrzi a kép arányait */
 }
 
@@ -60,6 +60,19 @@ p {
     img {
         max-width: 100%; /* A képek kitöltik a rendelkezésre álló helyet mobilon */
     }
+}
+#api-image {
+    width: 100%; 
+    max-width: 150px; /* Maximális szélesség 150px */
+    height: auto; /* Az arányok megőrzése */
+    border-radius: 50%; /* Ha kerek avatárt szeretnél */
+    object-fit: cover; /* Ha szükséges, a kép kitöltése a megadott méretre */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* A kép középre helyezése */
+    margin-top: 20px;
 }
 
 
