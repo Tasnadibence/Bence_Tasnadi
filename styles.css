@@ -51,16 +51,17 @@ p {
     margin-top: 10px; /* Kis távolság a kép és a szöveg között */
     font-size: 16px;
 }
-@media only screen and (max-width: 60px) {
-    .image-container, .image-grid {
-        flex-direction: column; /* A Flexbox esetén függőlegesen helyezi el a képeket */
-        grid-template-columns: 1fr; /* A Grid esetén egyetlen oszlopra vált */
+@media only screen and (max-width: 600px) {
+    .image-container {
+        flex-direction: column; /* Függőlegesen rendezi a képeket */
     }
 
     img {
-        max-width: 100%; /* A képek kitöltik a rendelkezésre álló helyet mobilon */
+        max-width: 100%; /* Mobilon a képek szélessége kitölti a rendelkezésre álló helyet */
     }
 }
+    
+
 #api-image {
     width: 100%; 
     max-width: 150px; /* Maximális szélesség 150px */
