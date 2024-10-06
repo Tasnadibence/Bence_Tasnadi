@@ -24,7 +24,7 @@ header {
 
             @media only screen and (max-width: 600px) {
                 header {
-                    height: 100px; /* Kisebb magasság mobil eszközökhöz */
+                    height: 70px; /* Kisebb magasság mobil eszközökhöz */
                 }
             }       
 }
